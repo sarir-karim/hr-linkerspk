@@ -24,42 +24,13 @@
     padding-top: 25px;
 
  }
- .home-container .controls {
-     display: flex;
-     justify-content: end;
-     margin-top: 20px;
-     gap: 20px;
-     width: 80%;
-     margin: 0;
-     padding-bottom: 0;
-   }
- 
-   .home-container .controls h2{
-     color: #F7C51E;
-     font-weight: bold;
-   }
-   .c-btns{
-     display: flex;
-     gap: 5px
-   }
+
    @media (max-width: 375px) {
      .controls {
        display: none;
      }
    }
-   .home-container .controls button {
-     background-color: transparent;
-     box-shadow: none;
-     color: black;
-     cursor:pointer;
-     position: absolute;
-     z-index: 999;
-     border: 1px solid grey;
-     border-radius: none;
-     font-size: 30px;
-     border: none;
-   }
-
+   
    .btn-h{
     padding: 10px;
     background-color: #fff;
@@ -76,10 +47,10 @@
    }
   
    .home-container .home-images{
-    height: 560px;
+    height: 580px;
      transition: 0.3s;
      overflow: hidden;
-     border-radius: 5px;
+     /* border-radius: 5px; */
    }
 
    .home-container .home-images img{
@@ -115,26 +86,46 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    border-radius: 5px;
+    /* border-radius: 5px; */
    }
    
 
    .home-desc h1{
-    font-size: 2.5rem;
+    font-size: 34px;
     text-transform: capitalize;
     font-weight: 900;
     color: white;
+    margin: 0;
+    width: 37%;
     margin: 0;
    }
 
    .home-desc p{
     color: white;
-    width: 30%;
+    width: 37%;
     text-align: left;
    }
 
    .yellow{
     color: #F7C51E;
+   }
+
+   .h-btn{
+    background-color: rgb(254, 215, 0);
+    line-height: 17px;
+    padding: 12px 35px;
+    letter-spacing: 0px;
+    font-weight: 700;
+    font-size: 13px;
+    margin-right: auto;
+    margin-top: 1.3rem;
+    border: none;
+    cursor: pointer;
+   }
+
+   .h-btn:hover{
+    background-color: black;
+    color: white;
    }
    
 

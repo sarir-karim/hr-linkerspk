@@ -1,0 +1,73 @@
+.skilled-labour{
+display: flex;
+justify-content: center;
+gap: 2.5rem;
+position: relative;
+
+}
+
+.skill-text{
+    width: 45%;
+    padding: 3rem 0;
+}
+
+.skill-text .skill-head{
+    font-size: 2rem;
+    width: 80%;
+}
+
+.skill-text .skill-subhead{
+    font-size: 1.1rem;
+    margin-bottom: 0;
+}
+
+.skill-text .skill-para{
+    font-size: 15px;
+    line-height: 1.4rem;
+}
+
+.skill-info{
+    width: 30%;
+    position: relative;
+    top: -3rem;
+}
+
+.skill-info img{
+    width: 100%;
+}
+
+.skill-bg{
+    background-color: #FBD232;
+    width: 100%;
+    position: relative;
+    top: -1.4rem;
+    z-index: -1;
+}
+
+.skill-bg .skill-call{
+    padding: 25px;
+    font-size: 25px;
+    width: 70%;
+    line-height: 30px;
+    text-align: center;
+    margin: 0 auto;
+    font-weight: bold;
+}
+
+.skill-line{
+    width: 100%;
+    height: 1px;
+    background-color: #E6C109;
+}
+
+.skill-num{
+    padding: 25px;
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+    font-weight: 500;
+}

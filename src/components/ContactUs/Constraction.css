@@ -1,0 +1,271 @@
+/*  */
+.Constraction-Main {
+  background-color: black;
+  padding: 10px 0;
+  padding-top: 2%;
+  /* margin-top: 5%; */
+}
+.Constraction-Main h1 {
+  color: white;
+  margin-left: 10%;
+  margin-bottom: 4%;
+}
+
+.Constraction-Text h2 {
+  color: black;
+  font-size: 2.3rem;
+  margin-left: 10%;
+}
+
+.Constraction-Text p {
+  color: gray;
+  font-size: 15px;
+  margin-left: 10%;
+  margin-top: 1%;
+  width: 80%;
+  line-height: 25px;
+}
+
+.Constraction-Text h3 {
+  color: black;
+  font-size: 2.3rem;
+  margin-top: 2%;
+}
+@media only screen and (max-width: 600px) {
+  .Constraction-Text p {
+    color: gray;
+    font-size: 15px;
+    margin-left: 7%;
+    margin-top: 1%;
+    width: 80%;
+    line-height: 25px;
+  }
+  .Constraction-Text h2 {
+    color: black;
+    font-size: 2.3rem;
+    margin-left: 7%;
+  }
+  .Constraction-Main h1 {
+    color: white;
+    margin-left: 7%;
+    margin-bottom: 4%;
+    font-size: 1rem;
+  }
+}
+
+/* ..............................................CONTACT FORM........................................  */
+
+input[type="text"],
+select,
+textarea {
+  padding: 12px;
+  border: 2px solid #ccc;
+  box-sizing: border-box;
+  margin-top: 10px;
+  resize: vertical;
+}
+
+.FormText {
+  width: 34%;
+  margin-left: 15%;
+  border: 2px solid #ccc;
+  padding: 12px;
+}
+.FormText-1 {
+  width: 35%;
+  margin-left: 1%;
+}
+input:focus{
+    border: 2px solid #FBD232;
+    outline: none;
+}
+
+.FormText-2 {
+  margin-left: 15%;
+  padding: 12px;
+  width: 70%;
+}
+
+.FormText-3 {
+  margin-left: 15%;
+  padding: 12px;
+  width: 70%;
+  padding: 40px 0;
+  font-size: 1rem;
+}
+
+.Contaer1 h3 {
+  margin-top: 3%;
+  margin-bottom: 3%;
+  color: black;
+  font-size: 2.3rem;
+  margin-left: 15%;
+}
+
+button {
+  background-color: #FBD232;
+  border: 2px solid #FBD232;
+  font-weight: 800;
+  margin-left: 15%;
+  padding: 12px 14px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+button:hover {
+  background-color: #111111;
+  border: 2px solid #111111;
+  color: white;
+  transition: 0.9s;
+  cursor: pointer;
+}
+input[type="tel"]{
+    width: 31%;
+  }
+/*........................................................ CONTACT FORM MEDIAQUERRY ...................................................*/
+
+@media only screen and (max-width: 600px) {
+  .container {
+    flex-wrap: wrap;
+  }
+
+  input[type="text"],
+  select,
+  textarea {
+    width: 78%;
+    padding: 12px;
+    border: 2px solid #ccc;
+    box-sizing: border-box;
+    margin-top: 10px;
+    resize: vertical;
+  }
+
+ 
+
+  .FormText {
+    /* width: 68%; */
+    margin-left: 7%;
+    border: 2px solid #ccc;
+
+    padding: 12px;
+    /* padding: 12px 30px; */
+  }
+
+  .FormText-1 {
+    width: 100%;
+    margin-left: 7%;
+  }
+  .FormText-2 {
+    margin-left: 7%;
+    padding: 12px;
+
+    width: 78%;
+  }
+  .FormText-3 {
+    margin-left: 7%;
+    padding: 12px;
+    width: 78%;
+    padding: 40px 0;
+    font-size: 1rem;
+  }
+
+  button {
+    margin-left: 7%;
+  }
+  .Contaer1 h3 {
+    margin-top: 3%;
+    margin-bottom: 3%;
+
+    color: black;
+    font-size: 2.3rem;
+    margin-left: 7%;
+  }
+}
+
+/* .........................................................CARD CSS................................................................ */
+
+.card {
+  background-color: black;
+  margin-top: 13%;
+  color: white;
+  padding: 11% 0px;
+
+  text-align: left;
+
+  /* text-align: center; */
+}
+.Main-Txt h1 {
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+.Main-Txt {
+  width: 100%;
+  margin-left: 10%;
+  padding-top: 1%;
+}
+
+.main-card {
+  margin-top: 10%;
+  display: flex;
+  align-items: center;
+  /* padding: 10px; */
+  margin-left: 10%;
+  /* right: 100%; */
+  margin-bottom: 10%;
+}
+
+.icon {
+  border: 2px #FBD232 solid;
+  border-radius: 100%;
+  /* font-size: 4rem; */
+  text-align: center;
+  padding: 14px 16px;
+  /* margin-top: 10%; */
+  background-color: #FBD232;
+}
+.card-txt {
+  margin-left: 5%;
+}
+.card-txt h1 {
+  /* text-align: start; */
+  /* width: 100%; */
+  font-size: 1.2rem;
+  width: 100%;
+}
+
+.card-txt p {
+  font-size: 0.9rem;
+  color: #838383;
+  margin-top: 2%;
+  margin-left: 5%;
+}
+
+/* ..................................................................CARD MEDIA QUERRY ..............................................*/
+@media only screen and (max-width: 600px) {
+  .card {
+    width: auto;
+    background-color: black;
+    margin-top: 13%;
+    color: white;
+    padding: 10px 89px;
+
+    text-align: left;
+
+    /* text-align: center; */
+  }
+  .main-card {
+    position: relative;
+    margin-top: 10%;
+    display: flex;
+    align-items: center;
+    /* padding: 10px; */
+    margin-left: 1%;
+    right: 20%;
+    margin-bottom: 10%;
+  }
+  .Main-Txt {
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-left: 2%;
+  }
+}

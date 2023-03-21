@@ -1,0 +1,78 @@
+.aboutus-heading{
+background-color: black;
+color: aliceblue;
+font-size: large;
+height: 10vh;
+}
+
+.aboutus-heading h1{
+padding-top: 15px;
+font-size: 2rem;
+margin: 0 5%;
+font-weight: bold;
+font-family: 'Open Sans', sans-serif;
+}
+
+.about-img img {
+width: 100%;
+}
+
+.about-sec{
+display: flex;
+justify-content: space-evenly;
+font-family: 'Open Sans', sans-serif;
+align-items: center;
+height: auto;
+padding-top: 2rem;
+background-color: white;
+}
+
+.about-para  {
+width: 60%;
+font-size: 1rem
+}
+
+.about-para h1{
+    font-weight: bold;
+}
+
+.about-para p{
+    line-height: 28px;
+    font-size: 15px;
+}
+
+.about-end{
+    display: flex;
+    justify-content: flex-start;
+}
+
+/* /////////////////////-----------------media query for about sec------------------------////////////////// */
+
+@media only screen and (max-width: 600px) {
+.about-sec {
+flex-wrap: wrap;
+width: 100%;
+height: 5%;
+}
+.about-para p{
+width: 100%;
+}
+
+.about-para {
+width: 80% !important;
+font-size: 1.8rem;
+}
+}
+
+
+
+
+
+/* ///////////////////-------About us section ends here-----------------///////////// */
+
+
+
+
+
+
+

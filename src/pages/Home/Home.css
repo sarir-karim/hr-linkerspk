@@ -1,0 +1,28 @@
+.home-first-sec {
+    display: flex;
+    align-items: center;
+    background-color: #111111;
+    color: white;
+    margin-top: 3rem;
+    padding: 3rem 4rem;
+  }
+  
+  .home-first-sec .h-icon {
+    background-color: #fbd232;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 50px;
+    margin-right: 10px;
+    margin-left: 2rem;
+  }
+  
+  .home-first-sec .h-headpara h5 {
+    margin: 0;
+    font-size: 2rem;
+  }
+  .home-first-sec .h-headpara span {
+    font-size: 15px;
+    color: #6a6a6a;
+  }

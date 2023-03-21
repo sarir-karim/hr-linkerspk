@@ -1,0 +1,45 @@
+.header-container{
+    background-color: #FBD232;
+    width: 100%;
+    position: relative;
+    z-index: 99;
+    height: 11.5vh;
+}
+
+nav {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;    
+    margin-left: 10rem;
+    z-index: 99;
+}
+.h-home{
+    width: 10rem ;
+}
+
+.h-about{
+    width: 10rem ;
+}
+
+.h-contact{
+    padding: 0 3rem;
+    width: 17rem;
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    height: 4.5rem;
+    background-color: #FBD232;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    clip-path: polygon(90% 0%, 100% 50%, 90% 100%, 0% 100%, 9% 50%, 0% 0%);
+}
+
+
+nav > a:hover{
+    background-color: black;
+    color: white
+}

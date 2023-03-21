@@ -1,0 +1,56 @@
+.lab-services{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 5rem 0;
+    background-color: black;
+    color: white;
+    margin-bottom: 3rem;
+}
+
+.lab-services h5,p{
+    margin: 0;
+}
+
+.lab-services h5{
+    font-size: 2rem;
+}
+
+.lab-services p{
+    font-size: 1rem;
+    color: #9F9F9F;
+    margin-top: 15px;
+}
+
+.services-container{
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 1.7rem;
+ 
+}
+.services-container .service-card{
+    position: relative;
+    height: 210px;
+}
+
+.services-container .service-card img{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+}
+
+.services-container .service-card p{
+    background-color: #FBD232;
+    text-align: right;
+    padding: 17px;
+    width: 70%;
+    margin-left: auto;
+    position: absolute;
+    bottom: -2rem;
+    right: 0;
+    font-size: 1.1rem;
+    font-weight: bold;
+}

@@ -1,0 +1,133 @@
+/* ---------------footer section starts here----------------- */
+
+
+.footer-sec {
+  display: flex;
+  background-color: rgb(28, 25, 25);
+  color: #a7a7a7;
+  font-family: "Open Sans", sans-serif;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  gap: 6rem;
+  align-items: flex-start;
+}
+
+.info-sec h2{
+    margin-bottom: 5px;
+    font-weight: normal;
+    font-size: 20px;
+    color: white;
+}
+
+.info-links {
+  padding-top: 17px;
+  width: 100%;
+}
+
+.info-links :hover {
+  color: #fbd232;
+}
+
+.info-links .first-link {
+  display: flex;
+  align-items: center;
+}
+
+.second-link {
+  padding-top: 12px;
+  display: flex;
+  align-items: center;
+}
+
+.footer-contact li {
+  padding-top: 8px;
+  list-style: none;
+  align-items: center;
+  display: flex;
+  font-size: 14px;
+}
+
+.o-icon{
+    margin-right: 20px;
+    font-size: 12px;
+}
+.footerheading p {
+  padding-top: 10px;
+  line-height: 30px;
+}
+
+.footerheading img {
+  border-radius: 20px;
+}
+a {
+  color: #a7a7a7;
+  text-decoration: none;
+}
+.ftr-icon {
+  font-size: 12px !important;
+  color: #a7a7a7;
+  margin-right: 5px;
+}
+
+.ftr-link {
+  font-size: 14px;
+  margin-right: 20px;
+}
+
+.info-line {
+  width: 100%;
+  height: 1px;
+  background-color: #fbd232;
+  margin-bottom: 1rem;
+}
+
+.ofice h2{
+    margin-bottom: 5px;
+    color: white;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.footer-bottom{
+    padding: 2rem;
+    position: relative;
+    background-color: #111111;
+}
+.b-main{
+    background: #fbd232;
+    height: 50px;
+    position: absolute;
+    top: -1.5rem;
+    width: 30%;
+    left: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 3rem;
+    padding-right: 1rem;
+}
+
+
+.b-icon:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+/* --------------------media for footer section-------------------------- */
+
+@media only screen and (max-width: 600px) {
+  .footer-sec {
+    flex-wrap: wrap;
+    height: 70vh;
+  }
+
+  .footerheading {
+    width: 90%;
+  }
+
+  .info-sec {
+    width: 80%;
+  }
+}

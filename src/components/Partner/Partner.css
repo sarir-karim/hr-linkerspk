@@ -1,0 +1,31 @@
+.about-first-sec {
+    display: flex;
+    align-items: center;
+    background-color: #EEEEEE;
+    color: black;
+    padding: 4rem 4rem;
+    width: 60%;
+    position: relative;
+    border-top-right-radius: 100px;
+  }
+
+  
+  .about-first-sec .a-icon {
+    background-color: #fbd232;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 50px;
+    margin-right: 10px;
+    margin-left: 2rem;
+  }
+  
+  .about-first-sec .a-headpara h5 {
+    margin: 0;
+    font-size: 2rem;
+  }
+  .about-first-sec .a-headpara span {
+    font-size: 15px;
+    color: #6a6a6a;
+  }
